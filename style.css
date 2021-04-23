@@ -1,0 +1,176 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+body {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+
+.parent {
+    display:grid;
+    grid-template-columns: 50% 50%;
+    background-color: red;
+    height: 10em;
+    width: 10em;
+    outline:solid red 2px;
+}
+
+.child {
+    margin:auto;
+    background-color: rgb(253, 110, 134);
+    width: 4.3em;
+    height:9em;
+    outline:solid red 2px;
+}
+
+.child2 {
+    margin:auto;
+    background-color: rgb(253, 110, 134);
+    width: 4.3em;
+    height:9em;
+    outline:solid red 2px;
+}
+
+.parent2 {
+    display:grid;
+    grid-template-columns: 20% auto;
+    background-color: red;
+    height: auto;
+    width: 10em;
+    outline:solid red 2px;
+}
+
+.child3 {
+    background-color: rgb(253, 110, 134);
+    width:100%;
+    height:9em;
+    outline:solid red 2px;
+}
+
+.child4 {
+    background-color: rgb(253, 110, 134);
+    width:100%;
+    height:9em;
+    outline:solid red 2px;
+}
+
+.parent3 {
+    display:grid;
+    grid-template-columns: 20% auto auto;
+    background-color: red;
+    height: auto;
+    width: 10em;
+    outline:solid red 2px;
+}
+
+.child5 {
+    background-color: rgb(253, 110, 134);
+    width:100%;
+    height:9em;
+    outline:solid red 2px;
+}
+
+.child6 {
+    background-color: rgb(253, 110, 134);
+    width:100%;
+    height:9em;
+    outline:solid red 2px;
+}
+.child7 {
+    background-color: rgb(253, 110, 134);
+    width:100%;
+    height:9em;
+    outline:solid red 2px;
+}
+
+.parent4 {
+    display:grid;
+    grid-template-rows: 50% 50%;
+    background-color: red;
+    height: 10em;
+    width: 10em;
+    outline:solid red 2px;
+}
+
+.child8 {
+    margin:auto;
+    background-color: rgb(253, 110, 134);
+    width: 100%;
+    height:100%;
+    outline:solid red 2px;
+
+}
+
+.child9 {
+    margin:auto;
+    background-color: rgb(253, 110, 134);
+    width: 100%;
+    height:100%;
+    outline:solid red 2px;
+
+}
+
+.parent5 {
+    display:grid;
+    grid-template-rows: 20% 80%;
+    background-color: red;
+    height: 10em;
+    width: 10em;
+    outline:solid red 2px;
+
+}
+
+.child10 {
+    margin:auto;
+    background-color: rgb(253, 110, 134);
+    width: 100%;
+    height:100%;
+    outline:solid red 2px;
+
+}
+
+.child11 {
+    margin:auto;
+    background-color: rgb(253, 110, 134);
+    width: 100%;
+    height:100%;
+    outline:solid red 2px;
+}
+
+.parent6 {
+    display:grid;
+    grid-template-rows: 20% auto auto;
+    background-color: red;
+    height: 10em;
+    width: 10em;
+    outline:solid red 2px;
+
+}
+
+.child12 {
+    margin:auto;
+    background-color: rgb(253, 110, 134);
+    width: 100%;
+    height:100%;
+    outline:solid red 2px;
+
+}
+
+.child13 {
+    margin:auto;
+    background-color: rgb(253, 110, 134);
+    width: 100%;
+    height:100%;
+    outline:solid red 2px;
+}
+.child14 {
+    margin:auto;
+    background-color: rgb(253, 110, 134);
+    width: 100%;
+    height:100%;
+    outline:solid red 2px;
+}
